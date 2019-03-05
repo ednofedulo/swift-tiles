@@ -12,6 +12,7 @@
 		A5B057B2222EBB83009B9F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B057B0222EBB83009B9F88 /* Main.storyboard */; };
 		A5B057B4222EBB84009B9F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B057B3222EBB84009B9F88 /* Assets.xcassets */; };
 		A5B057B7222EBB84009B9F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B057B5222EBB84009B9F88 /* LaunchScreen.storyboard */; };
+		A5B057BF222EBB9D009B9F88 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B057BE222EBB9D009B9F88 /* TileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A5B057B3222EBB84009B9F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5B057B6222EBB84009B9F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5B057B8222EBB84009B9F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B057BE222EBB9D009B9F88 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A5B057B3222EBB84009B9F88 /* Assets.xcassets */,
 				A5B057B5222EBB84009B9F88 /* LaunchScreen.storyboard */,
 				A5B057B8222EBB84009B9F88 /* Info.plist */,
+				A5B057BE222EBB9D009B9F88 /* TileView.swift */,
 			);
 			path = tiles;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5B057AF222EBB83009B9F88 /* ViewController.swift in Sources */,
+				A5B057BF222EBB9D009B9F88 /* TileView.swift in Sources */,
 				A5B057AD222EBB83009B9F88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
